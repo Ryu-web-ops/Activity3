@@ -11,6 +11,10 @@ public class Main {
         character.run();
         character.show_details();
 
+        //calling the slash and heal function
+//        character.slash();
+//        character.heal();
+
         System.out.println("=================================");
 
         Shaman shaman = new Shaman("Shaman", 150, 100, 100);

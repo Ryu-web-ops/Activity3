@@ -17,10 +17,13 @@ public class Character {
         System.out.println("Manna: " + Manna);
     }
     public void walk(){
-        Stamina = Stamina -1 ;
-
+       if (Stamina > 0) {
+           Stamina = Stamina - 1;
+       }
     } public void run (){
-        Stamina  = - 03;
+        if (Stamina > 0) {
+            Stamina  = Stamina - 3;
+        }
 
     }
 
